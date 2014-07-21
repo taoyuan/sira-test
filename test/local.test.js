@@ -1,5 +1,5 @@
 var sira = require('sira');
-var helpers = require('../');
+var helpers = require('../').local;
 var assert = require('chai').assert;
 
 describe('helpers', function () {
