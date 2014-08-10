@@ -5,9 +5,7 @@ var assert = require('chai').assert;
 describe('helpers', function () {
 
     var sapp = sira();
-    sapp.registry.define('xxx-test-model', {}, function (Model) {
-        sira.expose.model(Model);
-    });
+    sapp.registry.define('xxx-test-model', {crud: true});
     sapp.phase(sira.boot.module('sira-core'));
     sapp.phase(sira.boot.database());
     sapp.phase(function () {
