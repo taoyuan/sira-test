@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/taoyuan/sira-test",
   "dependencies": {
-    "chai": "^1.9.1",
-    "mocha": "^1.20.1",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
     "sira": "taoyuan/sira"
   },
   "devDependencies": {
